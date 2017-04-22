@@ -1,0 +1,41 @@
+{
+    "name": "clarkwinkelmann/flarum-ext-pretty-mails",
+    "description": "Use pretty emails",
+    "keywords": [
+        "extension",
+        "flarum",
+        "mail"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "homepage": "https://clarkwinkelmann.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/clarkwinkelmann/flarum-ext-pretty-mails/issues",
+        "source": "https://github.com/clarkwinkelmann/flarum-ext-pretty-mails"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.6",
+        "illuminate/mail": "5.1.*",
+        "s9e/text-formatter": "^0.6.1"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Pretty mails",
+            "icon": {
+                "name": "envelope",
+                "color": "#426799"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ClarkWinkelmann\\PrettyMails\\": "src/"
+        }
+    }
+}
